@@ -1,6 +1,7 @@
 {
   "env": {
-    "stage_url": "https://staging-app.sellbery.io"
+    "base_path": "https://staging-app.sellbery.io"
   },
-  "defaultCommandTimeout": 10000
+  "defaultCommandTimeout": 10000,
+  "video": false
 }

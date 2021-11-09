@@ -16,7 +16,7 @@ class RegisterPage extends Page {
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async register (username, password) {
+    register (username, password) {
         this.inputUsername.type(username);
         this.inputPassword.type(password);
         this.checkBox.click();

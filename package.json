@@ -4,6 +4,7 @@
     "faker": "^5.5.3"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "run-tests": "npx cypress run --spec 'cypress/integration/e2e/*.spec.js'"
   }
 }
