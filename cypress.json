@@ -1,0 +1,6 @@
+{
+  "env": {
+    "stage_url": "https://staging-app.sellbery.io"
+  },
+  "defaultCommandTimeout": 10000
+}
