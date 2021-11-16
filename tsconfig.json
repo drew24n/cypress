@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmitOnError": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "pretty": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts"]
+}

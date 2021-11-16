@@ -1,7 +1,7 @@
 {
-  "env": {
-    "base_path": "https://staging-app.sellbery.io"
-  },
+  "baseUrl": "https://www.metacritic.com",
   "defaultCommandTimeout": 10000,
-  "video": false
+  "video": false,
+  "viewportHeight": 900,
+  "viewportWidth": 1440
 }
