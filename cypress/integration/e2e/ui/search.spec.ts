@@ -1,4 +1,4 @@
-import Page from "../../pageObjects/page";
+import Page from "../../../pageObjects/page";
 
 describe("Search movie:", () => {
   before(() => {

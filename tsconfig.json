@@ -8,8 +8,8 @@
     "noFallthroughCasesInSwitch": true,
     "pretty": true,
     "module": "CommonJS",
-    "target": "ESNext",
-    "lib": ["ESNext", "dom"],
+    "target": "ES5",
+    "lib": ["ES5", "dom"],
     "types": ["cypress"]
   },
   "include": ["**/*.ts"]

@@ -1,4 +1,4 @@
-import LoginPage from "../../pageObjects/login.page";
+import LoginPage from "../../../pageObjects/login.page";
 import * as faker from "faker";
 
 describe("Wrong login:", () => {
