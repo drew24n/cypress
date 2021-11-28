@@ -12,7 +12,7 @@ describe("Cards:", () => {
   });
 
   afterEach(() => {
-    http("GET", `/1/cards/${cardData.id}`, {}, false);
+    http("GET", `/1/cards/${cardData.id}`, {}, {}, false);
   });
 
   describe("Card actions:", () => {
