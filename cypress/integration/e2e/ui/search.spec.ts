@@ -4,7 +4,9 @@ describe("Search movie:", () => {
   before(() => {
     Page.open();
     Page.searchField.type("The Matrix Resurrections");
-    Page.searchResults.first().click();
+    Page.searchResults
+      .trigger("change")
+      .then(() => cy.contains("The Matrix Resurrections").click());
   });
 
   it("should have a text with movie release date", () => {

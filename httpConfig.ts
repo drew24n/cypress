@@ -1,7 +1,4 @@
-const baseURL = Cypress.env("trelloAPI");
-const token = Cypress.env("trelloToken");
-const key = Cypress.env("trelloKey");
-export const idList = Cypress.env("trelloListId");
+const { basePath, key, token } = Cypress.env("trello");
 
 type methodTypes = "GET" | "POST" | "PUT" | "DELETE";
 
@@ -13,7 +10,7 @@ export const http = (
   failOnStatusCode = true
 ) => {
   return cy.request({
-    url: baseURL + path,
+    url: basePath + path,
     method,
     failOnStatusCode,
     qs: {

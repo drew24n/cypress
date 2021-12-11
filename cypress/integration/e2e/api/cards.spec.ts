@@ -1,4 +1,6 @@
-import { http, idList } from "../../../../httpConfig";
+import { http } from "../../../../httpConfig";
+
+const { idList } = Cypress.env("trello");
 
 describe("Cards:", () => {
   const cardName = "test_card";

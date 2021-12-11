@@ -10,7 +10,7 @@ export class Page {
   }
 
   open(path = "") {
-    return cy.visit(`${Cypress.env("baseURL")}/${path}`);
+    return cy.visit(`${Cypress.env("baseUrl")}/${path}`);
   }
 }
 
